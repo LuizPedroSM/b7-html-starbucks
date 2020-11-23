@@ -1,13 +1,13 @@
 # Starbucks
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luizpedrosm/b7-js-urna-eletronica?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luizpedrosm/b7-html-starbucks?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/luizpedrosm/b7-js-urna-eletronica">
-  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/luizpedrosm/b7-js-urna-eletronica">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/luizpedrosm/b7-html-starbucks">
+  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/luizpedrosm/b7-html-starbucks">
   
-  <a href="https://github.com/luizpedrosm/b7-js-urna-eletronica/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luizpedrosm/b7-js-urna-eletronica">
+  <a href="https://github.com/luizpedrosm/b7-html-starbucks/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luizpedrosm/b7-html-starbucks">
   </a>
 	
   <a href="https://www.linkedin.com/in/luizpedrosm/">  
@@ -23,7 +23,7 @@ Créditos do layout para [NicePage](https://starbucks.nicepage.io/)
 
 ## - 🌐 Web
 
-> https://luizpedrosm.github.io/b7-js-urna-eletronica/
+> https://luizpedrosm.github.io/b7-html-starbucks/
 
 ## 📷 Imagens
 
