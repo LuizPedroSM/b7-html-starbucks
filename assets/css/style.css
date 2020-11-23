@@ -125,7 +125,8 @@ h2 {
   background-image: url("../img/bg.jpg");
   background-position: center;
   background-size: cover;
-  padding: 65px 0px;
+  padding: 64px 0;
+  padding: 4rem 0;
 }
 .banner--images img {
   width: 148px;
@@ -135,6 +136,7 @@ h2 {
   border: 6px solid #117050;
   border-radius: 50%;
   margin: 24px 20px;
+  margin: 1.5rem 1.25rem;
 }
 
 .area1 {
@@ -142,8 +144,8 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .area1--content {
-  padding: 80px 224px;
-  padding: 5rem 14rem;
+  padding: 80px 160px;
+  padding: 5rem 10rem;
 }
 .area1--quote {
   margin-bottom: 30px;
@@ -175,8 +177,8 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .area2--content {
-  padding: 80px 224px;
-  padding: 5rem 14rem;
+  padding: 80px 160px;
+  padding: 5rem 10rem;
 }
 .area2--text {
   margin-bottom: 48px;
@@ -228,8 +230,8 @@ h2 {
   background-color: #e8e9ee;
 }
 .area4--content {
-  padding: 160px 224px;
-  padding: 10rem 14rem;
+  padding: 160px 0 160px 160px;
+  padding: 10rem 0 10rem 10rem;
 }
 .area4--text {
   margin-bottom: 48px;
@@ -240,4 +242,139 @@ h2 {
 .area4--img1 {
   background-image: url("../img/bg3.jpg");
   background-position: left;
+}
+
+.area5 {
+  background-color: #e8e9ee;
+  min-height: 640px;
+  min-height: 40rem;
+  background-image: url("../img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 80px;
+  padding: 5rem;
+  text-align: center;
+}
+footer a {
+  color: #a8f8dd;
+}
+
+@media (min-width: 769px) and (max-width: 1140px) {
+  .container {
+    padding: 0 20px;
+    padding: 0 1.25rem;
+  }
+  .area1--content,
+  .area2--content {
+    padding: 80px;
+    padding: 5rem;
+  }
+  .area3--content,
+  .area4--content {
+    padding: 160px 80px;
+    padding: 10rem 5rem;
+  }
+  .area5 {
+    background-size: cover;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+    padding: 0 1rem;
+  }
+  h1 {
+    font-size: 80px;
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 32px;
+    font-size: 2rem;
+  }
+  .area1--content,
+  .area2--content {
+    padding: 48px;
+    padding: 3rem;
+  }
+  .area3--content,
+  .area4--content {
+    padding: 96px 48px;
+    padding: 6rem 3rem;
+  }
+  .area1,
+  .area3 {
+    grid-template-columns: 3fr 2fr;
+  }
+  .area2 {
+    grid-template-columns: 2fr 3fr;
+  }
+  .area4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .area5 {
+    background-size: cover;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    padding: 0 8px;
+    padding: 0 0.5rem;
+  }
+  .header--search input {
+    max-width: 144px;
+    max-width: 9rem;
+  }
+  .header--menu {
+    margin-left: 16px;
+    margin-left: 1rem;
+  }
+  .banner {
+    padding: 32px 0;
+    padding: 2rem 0;
+  }
+  h1 {
+    font-size: 52px;
+    font-size: 3.25rem;
+  }
+  h2 {
+    font-size: 52px;
+    font-size: 1.5rem;
+  }
+  .banner--images img {
+    width: 80px;
+    width: 5rem;
+    height: 80px;
+    height: 5rem;
+    border: 3px solid #117050;
+    margin: 16px 8px;
+    margin: 1rem 0.5rem;
+  }
+  .area1,
+  .area2,
+  .area3,
+  .area4 {
+    grid-template-columns: 1fr;
+  }
+  .area1--content,
+  .area2--content,
+  .area3--content,
+  .area4--content {
+    padding: 16px;
+    padding: 1rem;
+  }
+  .area5 {
+    min-height: 320px;
+    min-height: 20rem;
+    background-size: cover;
+  }
+  footer {
+    padding: 32px;
+    padding: 2rem;
+  }
 }
